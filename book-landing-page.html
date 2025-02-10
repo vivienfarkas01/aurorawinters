@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master a New Language - Your Comprehensive Guide</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #FF6B6B;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+        }
+
+        .section {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .feature-card {
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .testimonials {
+            background: #f8f9fa;
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .testimonial-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .author {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .pricing {
+            text-align: center;
+        }
+
+        .price {
+            font-size: 2.5rem;
+            color: #764ba2;
+            margin: 20px 0;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .section {
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Master a New Language</h1>
+        <p>Your comprehensive guide to fluency - learn smarter, not harder</p>
+        <a href="#pricing" class="cta-button">Get Started Today</a>
+    </div>
+
+    <div class="section">
+        <h2>Why Choose This Book?</h2>
+        <div class="features">
+            <div class="feature-card" data-aos="fade-up">
+                <h3>Proven Method</h3>
+                <p>Based on years of research and real-world success stories</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                <h3>Practical Exercises</h3>
+                <p>Interactive lessons that reinforce your learning</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <h3>Clear Progress</h3>
+                <p>Track your improvement with structured chapters</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section testimonials">
+        <h2>What Readers Say</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card" data-aos="fade-right">
+                <p>"This book transformed my approach to language learning. The methods are practical and effective."</p>
+                <div class="author">- Sarah M.</div>
+            </div>
+            <div class="testimonial-card" data-aos="fade-left">
+                <p>"Finally, a language learning book that actually delivers results. Highly recommended!"</p>
+                <div class="author">- Michael R.</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="pricing" class="section pricing">
+        <h2>Start Your Language Journey</h2>
+        <div class="price">$29.99</div>
+        <p>One-time purchase, lifetime access</p>
+        <a href="#" class="cta-button">Buy Now</a>
+    </div>
+
+    <footer>
+        <p>© 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>
